@@ -9,7 +9,7 @@ task. I assume that it's done or the module is used in the masterless way.
 # Usage
 Clone this repository and put the module sap_test to any place according to
 your MODULEPATH value. There is the site.pp for the test reason. You can use it
-like:
+like (The example assumes that the src is the current directory.):
 ~~~bash
 sudo puppet apply --modulepath=modules manifests/site.pp
 ~~~
