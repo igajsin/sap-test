@@ -28,7 +28,7 @@ class sap_test(
   $package         = undef,
   $package_version = undef,
   $result          = '/tmp/test/process',
-  $script          = '/tmp/test/script',
+  $script          = '/tmp/test/script.sh',
   $system_file     = '/tmp/test/system',
   $work_dir        = '/tmp/test',
 )
